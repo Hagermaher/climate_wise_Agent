@@ -1,0 +1,7 @@
+streamlit>=1.35
+pandas
+numpy
+llama-index>=0.12
+llama-index-llms-groq
+llama-index-embeddings-fastembed
+fastembed

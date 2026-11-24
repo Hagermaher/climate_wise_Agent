@@ -1,0 +1,14 @@
+About the dataset used in this app
+The app uses daily data from NASA POWER (Prediction Of Worldwide Energy Resources) for a point at latitude 30.0444 and longitude 31.2357, which is Cairo, Egypt. The data covers 1 January 2015 to 31 December 2025. The values come from satellite-based models (MERRA-2 and CERES), not from a weather station on the ground, so they can differ a little from local station measurements.
+
+Variables
+T2M: average air temperature at 2 meters above the ground, in degrees C.
+T2M_MAX: highest air temperature of the day at 2 meters, in degrees C.
+T2M_MIN: lowest air temperature of the day at 2 meters, in degrees C.
+RH2M: relative humidity at 2 meters, in percent.
+PRECTOTCORR: corrected total precipitation (rain), in millimeters per day.
+ALLSKY_SFC_SW_DWN: solar energy reaching the surface under all sky conditions, in MJ per square meter per day.
+YEAR and DOY: the year and the day of the year (1 to 366).
+
+Limitations
+The record is only 11 years long, so it is too short to show a reliable long-term climate trend. It describes one location only.
